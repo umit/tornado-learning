@@ -3,7 +3,7 @@ __author__ = 'umitunal'
 import os.path
 import tornado.web
 
-#PROJECT CONSTANS
+#project constants
 PROJECT_PATH  = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, "templates")
 STATIC_PATH   = os.path.join(PROJECT_PATH, "static")
