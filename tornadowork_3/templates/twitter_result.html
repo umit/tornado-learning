@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Twitter Result HTML</title>
+</head>
+<body>
+    {% for item in entriesList %}
+    <p>
+        <ul>
+            <li>{{ item['profile_image_url_https'] }}</li>
+            <li>{{ item['text'] }}</li>
+        </ul>
+    </p>
+    {% end %}
+
+    <pre>
+        {{ jsonEntries }}
+    </pre>
+</body>
+</html>
